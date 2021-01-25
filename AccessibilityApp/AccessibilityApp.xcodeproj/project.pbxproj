@@ -13,6 +13,7 @@
 		5533D02725BDE06800F5FB64 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5533D02625BDE06800F5FB64 /* Preview Assets.xcassets */; };
 		55689FEE25BE5A1000879250 /* VoiceOverExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55689FED25BE5A1000879250 /* VoiceOverExample.swift */; };
 		55689FF125BE5B7200879250 /* AccessibilityHidingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55689FF025BE5B7200879250 /* AccessibilityHidingView.swift */; };
+		55689FF425BE5D6D00879250 /* ReadingControlValuesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55689FF325BE5D6D00879250 /* ReadingControlValuesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		5533D02825BDE06800F5FB64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55689FED25BE5A1000879250 /* VoiceOverExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceOverExample.swift; sourceTree = "<group>"; };
 		55689FF025BE5B7200879250 /* AccessibilityHidingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityHidingView.swift; sourceTree = "<group>"; };
+		55689FF325BE5D6D00879250 /* ReadingControlValuesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingControlValuesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				5533D02525BDE06800F5FB64 /* Preview Content */,
 				55689FED25BE5A1000879250 /* VoiceOverExample.swift */,
 				55689FF025BE5B7200879250 /* AccessibilityHidingView.swift */,
+				55689FF325BE5D6D00879250 /* ReadingControlValuesView.swift */,
 			);
 			path = AccessibilityApp;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55689FF425BE5D6D00879250 /* ReadingControlValuesView.swift in Sources */,
 				55689FEE25BE5A1000879250 /* VoiceOverExample.swift in Sources */,
 				5533D02225BDE06400F5FB64 /* ContentView.swift in Sources */,
 				55689FF125BE5B7200879250 /* AccessibilityHidingView.swift in Sources */,
