@@ -11,6 +11,8 @@
 		5533D02225BDE06400F5FB64 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5533D02125BDE06400F5FB64 /* ContentView.swift */; };
 		5533D02425BDE06800F5FB64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5533D02325BDE06800F5FB64 /* Assets.xcassets */; };
 		5533D02725BDE06800F5FB64 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5533D02625BDE06800F5FB64 /* Preview Assets.xcassets */; };
+		55689FEE25BE5A1000879250 /* VoiceOverExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55689FED25BE5A1000879250 /* VoiceOverExample.swift */; };
+		55689FF125BE5B7200879250 /* AccessibilityHidingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55689FF025BE5B7200879250 /* AccessibilityHidingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		5533D02325BDE06800F5FB64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5533D02625BDE06800F5FB64 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5533D02825BDE06800F5FB64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55689FED25BE5A1000879250 /* VoiceOverExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceOverExample.swift; sourceTree = "<group>"; };
+		55689FF025BE5B7200879250 /* AccessibilityHidingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityHidingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				5533D02325BDE06800F5FB64 /* Assets.xcassets */,
 				5533D02825BDE06800F5FB64 /* Info.plist */,
 				5533D02525BDE06800F5FB64 /* Preview Content */,
+				55689FED25BE5A1000879250 /* VoiceOverExample.swift */,
+				55689FF025BE5B7200879250 /* AccessibilityHidingView.swift */,
 			);
 			path = AccessibilityApp;
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55689FEE25BE5A1000879250 /* VoiceOverExample.swift in Sources */,
 				5533D02225BDE06400F5FB64 /* ContentView.swift in Sources */,
+				55689FF125BE5B7200879250 /* AccessibilityHidingView.swift in Sources */,
 				5533D02025BDE06400F5FB64 /* AccessibilityAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
